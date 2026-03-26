@@ -1,17 +1,17 @@
 [package]
-name = "did-jis-core"
+name = "jis-core"
 version = "0.1.0"
 edition = "2021"
 authors = ["Jasper van de Meent <jasper@humotica.nl>", "Root AI <root_idd@humotica.nl>"]
 description = "DID:JIS - Decentralized Identifiers for JTel Identity Standard"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/jaspertvdm/did-jis-core"
+repository = "https://github.com/jaspertvdm/jis-core"
 keywords = ["did", "identity", "decentralized", "jis", "w3c"]
 categories = ["authentication", "cryptography"]
 readme = "README.md"
 
 [lib]
-name = "did_jis_core"
+name = "jis_core"
 crate-type = ["cdylib", "rlib"]
 
 [features]

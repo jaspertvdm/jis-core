@@ -3,16 +3,16 @@ requires = ["maturin>=1.4,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "did-jis-core"
-version = "0.1.0"
-description = "DID:JIS - Decentralized Identifiers for JTel Identity Standard"
+name = "jis-core"
+version = "0.2.0"
+description = "JIS Core - JTel Identity Standard with TIBET provenance and bilateral intent verification"
 readme = "README.md"
 license = {text = "MIT OR Apache-2.0"}
 authors = [
     {name = "Jasper van de Meent", email = "jasper@humotica.nl"},
     {name = "Root AI", email = "root_idd@humotica.nl"}
 ]
-keywords = ["did", "identity", "decentralized", "jis", "w3c", "ietf", "verifiable"]
+keywords = ["jis", "tibet", "identity", "bilateral-intent", "provenance", "audit-trail", "ed25519", "ietf", "trust", "verification"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -31,11 +31,12 @@ requires-python = ">=3.9"
 
 [project.urls]
 Homepage = "https://humotica.com"
-Repository = "https://github.com/jaspertvdm/did-jis-core"
+Repository = "https://github.com/Humotica/jis-core"
+"Whitepaper" = "https://doi.org/10.5281/zenodo.18712238"
 Documentation = "https://datatracker.ietf.org/doc/draft-vandemeent-jis-identity/"
 "IETF Draft" = "https://datatracker.ietf.org/doc/draft-vandemeent-jis-identity/"
 
 [tool.maturin]
 features = ["python"]
 python-source = "python"
-module-name = "did_jis_core"
+module-name = "jis_core"
